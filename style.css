@@ -1,0 +1,25 @@
+.container{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+a{
+    color: darkgreen;
+    font-size: larger;
+    /* display: block; */
+    /* display: flex;
+    justify-content: space-around; */
+    /* flex-direction: row; */
+    background-color: darkred;
+    margin: 10px;
+    height: auto;
+}
+
+.rgn{
+    display: none;
+}
+
+#dropdown:hover .rgn{
+    display: block;
+    background-color: lawngreen;
+}
